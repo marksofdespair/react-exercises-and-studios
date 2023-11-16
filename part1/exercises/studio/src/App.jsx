@@ -1,20 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import '../'
-
+import React from 'react';
+import { RecipeAuthor } from './components/Description'; 
+import { RecipeIngredients } from './components/Ingredients';
+import { RecipePhoto } from './components/Photos';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="App">
+         <RecipePhoto />
           <div>
-            <RecipeDescription />
+            <RecipeAuthor />
+            <RecipeIngredients />
           </div>
         </div>
-      </div>
     );
   }
 }
