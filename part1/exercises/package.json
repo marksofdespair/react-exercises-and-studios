@@ -21,7 +21,9 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "test": "react-scripts test",
+    "server": "vite preview",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
