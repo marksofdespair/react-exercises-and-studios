@@ -1,11 +1,11 @@
 export default function HobbyIntroduction () {
    return(
       <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
+         <h2>3 Fun Facts About Indoor Gardening</h2>
          <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
+            <li>Indoor plant care can boost serotonin and dopamine in your brain - great for ADHD'rs!</li>
+            <li>You can root almost any plant!</li>
+            <li>Some plants, like certain orchid species, don't require soil.</li>
          </ol>
       </div>
    );
